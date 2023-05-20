@@ -1,0 +1,11 @@
+.comments {
+    padding: 1rem 0.75rem;
+    margin: 0.75rem 0;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    -webkit-box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+    -moz-box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+    box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+}

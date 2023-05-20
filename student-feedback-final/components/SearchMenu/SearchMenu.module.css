@@ -1,0 +1,41 @@
+.heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.description {
+    color: var(--text-secondary);
+}
+
+.buttonGroup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 0 0;
+}
+
+.buttonContainer {
+    width: 32%;
+}
+
+.formControl {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.searchBarContainer {
+    width: 100%;
+    margin: 0 0.25rem;
+}
+
+@media (max-width: 992px) {
+    .formControl {
+        flex-direction: column;
+    }
+
+    .searchBarContainer {
+        width: 100%;
+    }
+}

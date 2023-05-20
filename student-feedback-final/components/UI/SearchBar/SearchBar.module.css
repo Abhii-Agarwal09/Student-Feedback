@@ -1,0 +1,55 @@
+.formGroup {
+    width: 100%;
+    display: flex;
+}
+
+.groupingContainer {
+    width: 75%;
+}
+
+.search {
+    width: 98%;
+    padding: 0.45rem 0.75rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+    -moz-box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+    box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+}
+
+.search:focus {
+    outline-color: var(--bg-secondary);
+}
+
+.dataResultContainer {
+    height: 10rem;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult {
+    cursor: pointer;
+    width: 98%;
+    padding: 0.45rem 0.25rem;
+    border-radius: 0.25rem;
+    color: var(--text-primary);
+}
+
+.dataResult:hover {
+    background-color: #efefef;
+}
+
+.buttonContainer {
+    width: 25%;
+}
+
+@media (max-width: 992px) {
+    .search {
+        width: 95%;
+    }
+
+    .buttonContainer {
+        width: 34%;
+    }
+}

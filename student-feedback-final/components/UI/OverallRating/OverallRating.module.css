@@ -1,0 +1,15 @@
+.overallRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: var(--text-secondary);
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.ratingContainer {
+    width: 8rem;
+}

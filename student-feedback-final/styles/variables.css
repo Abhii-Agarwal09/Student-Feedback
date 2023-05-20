@@ -1,0 +1,19 @@
+/* Color Scheme */
+
+:root {
+    --bg-primary: #0FB582;
+    --bg-primary-hover: #0f9b71;
+    --bg-secondary: #FF8F00;
+    --bg-secondary-hover: #DE7E00;
+
+    --text-primary: #353A58;
+    --text-secondary: #5F8192;
+
+    --rating-red: #EF505E;
+    --rating-yellow: #EBA134;
+    --rating-green: #2CBA00;
+    --rating-null: #9698A8;
+
+    --white: #fff;
+    --black: #000;
+}

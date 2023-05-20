@@ -1,0 +1,23 @@
+.card {
+    width: 15.5rem;
+    padding: 1rem 0.75rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+    -moz-box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+    box-shadow: 5px 4px 16px rgba(45, 45, 45, 0.12);
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.groupingContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.ratingContainer {
+    width: 8rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerItem {
+    display: flex;
+    align-items: center;
+}
+
+.groupingContainer {
+    display: flex;
+    align-items: center;
+    color: var(--text-secondary);
+}
+
+.userImage {
+    border-radius: 100%;
+}
+
+.userImageContainer {
+    margin-right: 0.75rem;
+}

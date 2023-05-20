@@ -1,0 +1,21 @@
+{
+  "bgPrimary": "#0FB582",
+  "bgPrimaryHover": "#0F9B71",
+  "bgSecondary": "#FF8F00",
+  "bgSecondaryHover": "#DE7E00",
+
+  "textPrimary": "#353A58",
+  "textSecondary": "#5F8192",
+
+  "starActive": "#EBA134",
+  "starFocused": "",
+  "starInactive": "#DFDFDF",
+
+  "ratingRed": "#EF505E",
+  "ratingYellow": "#EBA134",
+  "ratingGreen": "#2CBA00",
+  "ratingNull": "#9698A8",
+
+  "white": "#fff",
+  "black": "#000"
+}

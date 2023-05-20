@@ -1,0 +1,19 @@
+.facultyNotFoundSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.facultyNotFoundDescription {
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.facultyNotFoundBtnContainer {
+    padding-top: 0.5rem;
+    width: 8.5rem;
+}
