@@ -263,6 +263,8 @@ const PostFeedback = () => {
       //Showing Loading Screen
       setIsLoading(true);
 
+      console.log(feedbackData);
+
       setTimeout(() => {
         setLoadingMessage(
           'Checking your comment for Spam Detection. This may take a while...'

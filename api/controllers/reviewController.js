@@ -183,27 +183,27 @@ const postReview = async (req, res, next) => {
     // console.log(course);
     // TODO Make request for comment spam detection
 
-    const isCommentSpam = await checkComment(comment);
+    // const isCommentSpam = await checkComment(comment);
     // console.log("Is comment spam: ", isCommentSpam);
-    if (isCommentSpam === true) {
-      student.spamAttempts += 1;
-      if (student.spamAttempts >= 3) {
-        student.isBanned = true;
-        await student.save();
+    // if (isCommentSpam === true) {
+    //   student.spamAttempts += 1;
+    //   if (student.spamAttempts >= 3) {
+    //     student.isBanned = true;
+    //     await student.save();
 
-        return res.json({
-          success: false,
-          message:
-            'You are banned from this website because of too many spam comments',
-        });
-      }
-      await student.save();
-      return res.json({
-        success: false,
-        message:
-          'Review not posted because of foul language in the comment! Kindly refrain from doing so',
-      });
-    }
+    //     return res.json({
+    //       success: false,
+    //       message:
+    //         'You are banned from this website because of too many spam comments',
+    //     });
+    //   }
+    //   await student.save();
+    //   return res.json({
+    //     success: false,
+    //     message:
+    //       'Review not posted because of foul language in the comment! Kindly refrain from doing so',
+    //   });
+    // }
     // Comment
     const newComment = new Comment({
       courseCode,
